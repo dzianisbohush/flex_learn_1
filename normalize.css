@@ -1,0 +1,34 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    min-height: 600px;
+    background: url(back.png) no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.main-overlay{
+    position: absolute;
+    top: 0; left:0;
+    height: 100%; width: 100%;
+    opacity: .7;
+    z-index: 0;
+    background-image: -moz-linear-gradient( 150deg, rgb(136,211,206) 0%, rgb(110,69,226) 100%);
+    background-image: -webkit-linear-gradient( 150deg, rgb(136,211,206) 0%, rgb(110,69,226) 100%);
+    background-image: -ms-linear-gradient( 150deg, rgb(136,211,206) 0%, rgb(110,69,226) 100%);
+    
+}
+
+.logo-nav{
+    position: relative;
+    z-index: 1;    
+}
