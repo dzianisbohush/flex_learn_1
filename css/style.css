@@ -15,7 +15,7 @@ header{
     align-items: center;
     height: 100vh;
     min-height: 600px;
-    background: url(back.png) no-repeat center;
+    background: url(../img/header-background.png) no-repeat center;
     background-size: cover;
     position: relative;
 }
@@ -33,11 +33,18 @@ header{
 }
 .logo{
     display:flex;
-    width: 11%;
+    width: 13%;
+    letter-spacing: 4px;
     justify-content: space-between;
     align-items: center;
 }
+.logo span{
+    font-size: 30px;
+    font-weight: 700;
+}
 .nav{
+    font-size: 16px;
+    font-weight: 500;
     width: 60%
 }
 .nav ul{
@@ -67,6 +74,11 @@ header{
     justify-content: space-around;
     align-items: center;
 }
+.header-message span{
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
 
 
 .header-message span::before{
@@ -91,10 +103,16 @@ header{
 
 .header-message h1{
     margin:1%;
+    font-size: 80px;
+    font-weight: 500;
     }
 
     .header-message p{
         margin:0;
+        font-size: 16px;
+        font-weight: 400;
+        width: 70%;
+        text-align: center;
         }
 
         .header-arrow{
@@ -114,8 +132,10 @@ header{
             
         }
 .select-a-plan{
-    hight:100vh;
-    min-height: 600px;
+    hight:70vh;
+    padding: 5rem 3rem;
+   
+    /* min-height: 700px; */
     background: #f9fafc;
     display:flex;
     flex-direction: column;
@@ -171,7 +191,7 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 3rem;
+    margin-top: 6rem;
     /* height: 40vh; */
     width: 80vw;
     color: #9fa4af;
@@ -242,6 +262,51 @@ transition: .2s;
 .plans button:hover{
 color:white;
 background: #6e45e2;
+}
+
+.take-action{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/map.png) no-repeat center;
+    background-size: cover;
+    color: white;
+    text-align:center;
+    height: 30vh;
+}
+.take-action span{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+}
+.take-action h4{
+    margin: 1rem;
+    font-size: 60px;
+    font-weight: 500;
+}
+.take-action-buttons{
+    display:flex;
+    justify-content: space-between;
+    align-content: center;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    width: 26.5rem;   
+}
+.take-action-buttons button{
+    background: white;
+    padding: 1rem 2rem;
+    border-radius: 100px;
+    cursor: pointer;
+    width: 13rem;
+    border: none;
+    color:#4f4f6f;
+    text-transform: uppercase;
+}
+.take-action-buttons button:hover{
+    background: #6e45e2;
+    color:white;
 }
 
 
