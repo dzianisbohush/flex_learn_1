@@ -59,11 +59,18 @@ header{
     text-transform: uppercase;
     text-decoration: none;
 }
+.link-item:hover{
+    border-bottom: 3px white solid;
+}
 .get-started-button{
     border: 2px white solid;
     border-radius: 30px;
     padding: 15px 20px;
     margin-left: 60px;
+}
+.get-started-button:hover{
+    color:white;
+    background: #6e45e2;
 }
 
 .header-message{
@@ -307,6 +314,85 @@ background: #6e45e2;
 .take-action-buttons button:hover{
     background: #6e45e2;
     color:white;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+    margin-top: 1rem;
+
+}
+.footer-logo-nav{
+    
+    width: 95vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-nav{
+    width: 40%;
+}
+.footer-nav ul{
+    list-style:none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer-link-item{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color:#6a6a77;
+}
+.footer-link-item:hover{
+    color: #6761CE;
+}
+.footer-get-started-button{
+    padding: 1rem 2rem;
+    border-radius: 100px;
+    text-transform: uppercase;
+    border: #AD9CE0 solid 1px;
+}
+.footer-get-started-button:hover{
+    background: #6e45e2;
+    color:white;
+}
+
+.footer-logo{
+    width: 11%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.footer-logo span{
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+.footer-grey-line{
+    width: 95vw;
+    height: 1.5px;
+    background: #B3B3C4;
+}
+.footer-additing-info{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+width: 95vw;
+}
+.footer-additing-info p{
+    font-weight: 400;
+    font-size: 14px;
+    color:#6a6a77; 
+}
+.social-links a{
+text-decoration: none;
+color:#6a6a77; 
+font-size: 16px;
+letter-spacing: 1rem;
 }
 
 
