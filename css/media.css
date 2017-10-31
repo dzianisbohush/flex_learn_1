@@ -1,0 +1,104 @@
+@media (max-width: 1800px) {
+    .nav {
+       width: 70%
+    }
+    .footer-nav {
+       width: 60%;
+    }
+ }
+ 
+ @media (max-width: 1400px) {
+    .plans div {
+       width: 30vw;
+    }
+    .plans {
+       width: 95vw;
+    }
+ }
+ 
+ @media (max-width: 1100px) {
+    html {
+       font-size: 8px;
+    }
+ }
+ 
+ @media (max-width: 880px) {
+    html {
+       font-size: 6px;
+    }
+ }
+ 
+ @media (max-width: 770px) {
+    .select-a-plan {
+       height: 160vh;
+       justify-content: space-between;
+    }
+    .plans {
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+       align-items: center;
+    }
+    .plans div {
+       height: 45vh;
+       width: 85vw;
+       margin-bottom: 3rem;
+    }
+    .plans p {
+       width: 90%;
+    }
+    .plans img {
+       margin-top: 0.5rem;
+       transform: scale(0.5, 0.5);
+    }
+    .plans h4 {
+       margin: 0;
+    }
+    .plans button {
+       padding: 1rem 8rem;
+       margin: 1rem;
+    }
+    .take-action-buttons {
+       width: 45rem;
+    }
+    .take-action-buttons button {
+       width: 20rem;
+    }
+    .header-arrow {
+       margin-bottom: 7rem;
+    }
+    .footer-additing-info {
+       flex-direction: column;
+    }
+    .social-links {
+       order: -1;
+    }
+    .footer-grey-line {
+       display: none
+    }
+    .footer-logo-nav {
+       display: none
+    }
+    footer {
+       height: 8vh;
+    }
+    .logo-nav {
+       margin: 4rem;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+       align-items: center;
+       height: 57rem;
+    }
+    .nav ul {
+       flex-direction: column;
+       height: 40rem
+    }
+    .link-item {
+       font-size: 3rem;
+       margin: 2rem;
+    }
+    .logo {
+       width: 20%
+    }
+ }
