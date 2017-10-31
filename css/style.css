@@ -3,6 +3,9 @@
 *::before {
   box-sizing: border-box;
 }
+html, body{
+    font-size: 62.5%;
+}
 
 body {
   margin: 0;
@@ -16,7 +19,7 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 100vh;
-  min-height: 600px;
+  min-height: 60rem;
   background: url(../img/header-background.png) no-repeat center;
   background-size: cover;
   position: relative;
@@ -29,27 +32,27 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100px;
+  height: 10rem;
   /* border: red solid 1px */
 }
 
 .logo {
   display: flex;
   width: 12%;
-  letter-spacing: 4px;
+  letter-spacing: 0.4rem;
   justify-content: space-between;
   align-items: center;
 }
 
 .logo span {
-  font-size: 30px;
+  font-size: 3rem;
   font-weight: 700;
 }
 
 .nav {
-  font-size: 16px;
+  font-size: 2rem;
   font-weight: 500;
-  width: 40%
+  width: 45%
 }
 
 .nav ul {
@@ -66,20 +69,20 @@ header {
 }
 
 .link-item:hover {
-  border-bottom: 3px white solid;
+  border-bottom: 0.3rem white solid;
 }
 
 .get-started-button {
-  border: 2px white solid;
-  border-radius: 30px;
-  padding: 15px 20px;
-  margin-left: 60px;
+  border: 0.2rem white solid;
+  border-radius: 10rem;
+  padding: 1.5rem 2rem;
+  margin-left: 6rem;
 }
 
 .get-started-button:hover {
   color: white;
   background: #6e45e2;
-  border: 2px solid #6e45e2;
+  border: 0.2rem solid #6e45e2;
 }
 
 .header-message {
@@ -92,7 +95,7 @@ header {
 }
 
 .header-message span {
-  font-size: 14px;
+  font-size: 3rem;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -100,39 +103,39 @@ header {
 .header-message span::before {
   display: inline-block;
   content: "";
-  width: 25px;
-  height: 2px;
+  width: 3rem;
+  height: 0.2rem;
   background: white;
-  margin-right: 7px;
+  margin-right: 0.7rem;
   vertical-align: middle;
 }
 
 .header-message span::after {
   display: inline-block;
   content: '';
-  width: 25px;
-  height: 2px;
+  width: 3rem;
+  height: 0.2rem;
   background: white;
-  margin-left: 7px;
+  margin-left: 0.7rem;
   vertical-align: middle;
 }
 
 .header-message h1 {
   margin: 1%;
-  font-size: 80px;
+  font-size: 12rem;
   font-weight: 500;
 }
 
 .header-message p {
   margin: 0;
-  font-size: 16px;
+  font-size: 2.5rem;
   font-weight: 400;
   width: 70%;
   text-align: center;
 }
 
 .header-arrow {
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
   height: 5vh;
   width: 5vh;
   display: flex;
@@ -152,9 +155,7 @@ header {
 }
 
 .select-a-plan {
-  hight: 70vh;
-  padding: 5rem 3rem;
-  /* min-height: 700px; */
+  height: 100vh;
   background: #f9fafc;
   display: flex;
   flex-direction: column;
@@ -171,38 +172,38 @@ header {
 
 .article-header span {
   color: #9fa4af;
-  font-size: 33px;
+  font-size: 3.3rem;
 }
 
 .article-header span::before {
   display: inline-block;
   content: "";
-  width: 25px;
-  height: 2px;
+  width: 2.5rem;
+  height: 0.2rem;
   background: #6e45e2;
-  margin-right: 7px;
+  margin-right: 0.7rem;
   vertical-align: middle;
 }
 
 .article-header span::after {
   display: inline-block;
   content: '';
-  width: 25px;
-  height: 2px;
+  width: 2.5rem;
+  height: 0.2rem;
   background: #6e45e2;
-  margin-left: 7px;
+  margin-left: 0.7rem;
   vertical-align: middle;
 }
 
 .article-header h1 {
   margin: 3%;
   color: #4f4f6f;
-  font-size: 60px;
+  font-size: 6rem;
   font-weight: 500;
 }
 
 .article-header p {
-  font-size: 16px;
+  font-size: 2rem;
   margin: 0;
   color: #9fa4af;
 }
@@ -211,22 +212,19 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: 6rem;
-  /* height: 40vh; */
+  /* margin-top: 6rem; */
+  /* height: 100vh; */
   width: 80vw;
   color: #9fa4af;
+  /* height: 70% */
 }
 
 .plans span {
-  margin: 2rem 0 1rem 0;
-  font-size: 16px;
+  /* margin: 2rem 0 1rem 0; */
+  font-size: 2.5rem;
   font-weight: 700;
 }
 
-.plans p {
-  font-size: 14px;
-  font-weight: 400;
-}
 
 .plans img {
   margin-top: 2rem;
@@ -238,8 +236,8 @@ header {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  border-radius: 50px;
-  /* height: 30vh; */
+  border-radius: 5rem;
+  height: 65vh;
   width: 20vw;
   text-align: center;
   transition: .2s;
@@ -247,17 +245,17 @@ header {
 
 .plans h4 {
   color: #4f4f6f;
-  font-size: 4rem;
+  font-size: 8rem;
   font-weight: 500;
   margin: 0 0 1rem 0;
 }
 
 .plans sup {
-  font-size: 1rem;
+  font-size: 3rem;
 }
 
 .plans sub {
-  font-size: 1rem;
+  font-size: 3rem;
   vertical-align: baseline;
 }
 
@@ -267,18 +265,18 @@ header {
 
 .plans p {
   width: 70%;
-  font-size: 0.8rem;
+  font-size: 2rem;
   font-weight: 400;
   color: #4f4f6f;
 }
 
 .plans button {
   background: white;
-  font-size: 0.7rem;
+  font-size: 1.8rem;
   color: #4f4f6f;
   font-weight: 700;
-  padding: 0.8rem 2rem;
-  border-radius: 50px;
+  padding: 1rem 2.2rem;
+  border-radius: 5rem;
   margin: 1.5rem 3rem;
   cursor: pointer;
   border: rgb(215, 219, 232) solid 1px;
@@ -299,18 +297,18 @@ header {
   background-size: cover;
   color: white;
   text-align: center;
-  height: 30vh;
+  height: 40vh;
 }
 
 .take-action span {
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 2rem;
   font-weight: 700;
 }
 
 .take-action h4 {
-  margin: 1rem;
-  font-size: 60px;
+  margin: 0 0 1rem 0;
+  font-size: 8rem;
   font-weight: 500;
 }
 
@@ -318,20 +316,20 @@ header {
   display: flex;
   justify-content: space-between;
   align-content: center;
-  font-size: 12px;
-  font-weight: 700;
   text-align: center;
-  width: 26.5rem;
+  width: 37rem;
 }
 
 .take-action-buttons button {
   background: white;
-  padding: 1rem 2rem;
-  border-radius: 100px;
+  padding: 1rem;
+  border-radius: 10rem;
   cursor: pointer;
-  width: 13rem;
+  width: 18rem;
   border: none;
   color: #4f4f6f;
+  font-size: 1.5rem;
+  font-weight: 700;
   text-transform: uppercase;
 }
 
@@ -369,7 +367,7 @@ footer {
 
 .footer-link-item {
   text-decoration: none;
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 500;
   color: #6a6a77;
 }
@@ -380,7 +378,7 @@ footer {
 
 .footer-get-started-button {
   padding: 1rem 2rem;
-  border-radius: 100px;
+  border-radius: 10rem;
   text-transform: uppercase;
   border: #AD9CE0 solid 1px;
 }
@@ -399,8 +397,8 @@ footer {
 
 .footer-logo span {
   font-weight: 700;
-  font-size: 30px;
-  letter-spacing: 3px;
+  font-size: 3rem;
+  letter-spacing: 0.3rem;
 }
 
 .footer-grey-line {
@@ -418,14 +416,14 @@ footer {
 
 .footer-additing-info p {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 1.4rem;
   color: #6a6a77;
 }
 
 .social-links a {
   text-decoration: none;
   color: #6a6a77;
-  font-size: 16px;
+  font-size: 1.6rem;
   letter-spacing: 1rem;
 }
 
